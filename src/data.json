@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "row": 1,
+    "col": 1,
+    "bgColor": "#FFF",
+    "direction": "right",
+    "graphType": "none",
+    "dataType": "table",
+    "daysType": "7d",
+    "dataTable": {
+      "headers": ["PRODUCT", "Q1-23", "Q2-23"],
+      "rows": [
+        ["Reusable", 30, "4%"],
+        ["Natural", 25, "4%"],
+        ["Compost", 35, "4%"],
+        ["Reusable Stuff", 35, "4%"]
+      ],
+      "total": ["Total", "4%", "4%"]
+    }
+  },
+  {
+    "id": 2,
+    "row": 1,
+    "col": 1,
+    "bgColor": "#5E5ADB",
+    "direction": "right",
+    "graphType": "none",
+    "dataType": "table",
+    "daysType": "today",
+    "dataTable": {
+      "headers": ["PRODUCT", "Q1-23", "Q2-23"],
+      "rows": [
+        ["Reusable", 30, "4%"],
+        ["Natural", 25, "4%"],
+        ["Compost", 35, "4%"],
+        ["Reusable Stuff", 35, "4%"]
+      ],
+      "total": ["Total", "4%", "4%"]
+    }
+  },
+  {
+    "id": 3,
+    "row": 1,
+    "col": 4,
+    "bgColor": "#FFF",
+    "direction": "right",
+    "graphType": "bar",
+    "dataType": "all",
+    "daysType": "7d",
+    "dataTable": {
+      "headers": ["PRODUCT", "Q1-23", "Q2-23"],
+      "rows": [
+        ["Reusable", 30, "4%"],
+        ["Natural", 25, "4%"],
+        ["Compost", 35, "4%"],
+        ["Reusable Stuff", 35, "4%"]
+      ],
+      "chartData": [
+        { "name": "Red", "value": 29000, "color": "#F1E254" },
+        { "name": "Blue", "value": 43000, "color": "#FF8E8E" },
+        { "name": "Yellow", "value": 21000, "color": "#96D3FF" },
+        { "name": "Green", "value": 34000, "color": "#5FDC8F" },
+        { "name": "Purple", "value": 9000, "color": "#F182F3" },
+        { "name": "Orange", "value": 26000, "color": "#5E5ADB" }
+      ],
+      "total": ["Total", "30", "4%"],
+      "summary":"Based on the provided data, the most effective hour of the day to      send an email across all stores for all time, with the highest engagement after opening, is at 15:00(3 PM), with a total of 5041 emails opened. The next best hours are 16:00 (4 PM) and 17:00 (5 PM) with 5007 and 4785 emails opened respectively. There is a noticeable drop in"
+    }
+  },
+  {
+    "id": 4,
+    "row": 2,
+    "col": 2,
+    "bgColor": "#282828",
+    "direction": "right",
+    "graphType": "none",
+    "dataType": "table",
+    "daysType": "7d",
+    "dataTable": {
+      "headers": ["PRODUCT", "Q1-23", "Q2-23", "Q3-23", "Q4-23", "Q1-24"],
+      "rows": [
+        ["Reusable", "30", "4%", "4%", "4%", "4%"],
+        ["Natural Resource", "30", "4%", "4%", "4%", "4%"],
+        ["Composite Compound", "30", "4%", "4%", "4%", "4%"],
+        ["Reusable Materials", "30", "4%", "4%", "4%", "4%"],
+        ["Reusable", "30", "4%", "4%", "4%", "4%"],
+        ["Natural Resource", "30", "4%", "4%", "4%", "4%"],
+        ["Composite Compound", "30", "4%", "4%", "4%", "4%"],
+        ["Reusable Materials", "30", "4%", "4%", "4%", "4%"],
+        ["Reusable", "30", "4%", "4%", "4%", "4%"],
+        ["Natural Resource", "30", "4%", "4%", "4%", "4%"],
+        ["Composite Compound", "30", "4%", "4%", "4%", "4%"],
+        ["Reusable Materials", "30", "4%", "4%", "4%", "4%"],
+        ["Reusable", "30", "4%", "4%", "4%", "4%"],
+        ["Natural Resource", "30", "4%", "4%", "4%", "4%"],
+        ["Composite Compound", "30", "4%", "4%", "4%", "4%"],
+        ["Reusable Materials", "30", "4%", "4%", "4%", "4%"],
+        ["Reusable", "30", "4%", "4%", "4%", "4%"],
+        ["Natural Resource", "30", "4%", "4%", "4%", "4%"],
+        ["Composite Compound", "30", "4%", "4%", "4%", "4%"]
+      ],
+      "total": ["Total", "30", "4%", "4%", "4%", "4%"]
+    }
+  },
+  {
+    "id": 5,
+    "row": 1,
+    "col": 2,
+    "bgColor": "#FFF",
+    "direction": "right",
+    "graphType": "none",
+    "dataType": "summary",
+    "daysType": "7d",
+    "dataTable": {
+      "headers": ["Name", "Age", "City"],
+      "rows": [
+        ["John", 30, "New York"],
+        ["Alice", 25, "Los Angeles"],
+        ["Bob", 35, "Chicago"]
+      ],
+      "total": ["Total", "30", "4%", "4%", "4%", "4%"]
+    }
+  },
+  {
+    "id": 6,
+    "row": 3,
+    "col": 1,
+    "bgColor": "#282828",
+    "direction": "right",
+    "graphType": "line",
+    "dataType": "graph",
+    "daysType": "7d",
+    "dataTable": {
+      "chartData": [
+        { "name": "Jan", "uv": 21000, "pv": 15000, "amt": 9000 },
+        { "name": "Feb", "uv": 29000, "pv": 11000, "amt": 21000 },
+        { "name": "Mar", "uv": 11000, "pv": 5000, "amt": 28000 },
+        { "name": "Apr", "uv": 12000, "pv": 10000, "amt": 4000 },
+        { "name": "May", "uv": 27000, "pv": 8000, "amt": 2000 }
+      ],
+      "total": ["Total", "30", "4%", "4%", "4%", "4%"]
+    }
+  },
+  {
+    "id": 7,
+    "row": 1,
+    "col": 1,
+    "bgColor": "#FFF",
+    "direction": "right",
+    "graphType": "pie",
+    "dataType": "graph",
+    "daysType": "7d",
+    "dataTable": {
+      "chartData": [
+        { "name": "Red", "value": 29000, "color": "#FB8282" },
+        { "name": "Blue", "value": 43000, "color": "#5E5ADB" },
+        { "name": "Yellow", "value": 21000, "color": "#F2E144" },
+        { "name": "Green", "value": 34000, "color": "#54D787" }
+      ],
+      "total": ["Total", "30", "4%", "4%", "4%", "4%"]
+    }
+  },
+  {
+    "id": 8,
+    "row": 2,
+    "col": 1,
+    "bgColor": "#FFF",
+    "direction": "right",
+    "graphType": "line",
+    "dataType": "graph",
+    "daysType": "7d",
+    "dataTable": {
+      "chartData": [
+        { "name": "Google", "uv": 29000, "pv": 11000, "amt": 21000 },
+        { "name": "Instagram", "uv": 11000, "pv": 5000, "amt": 28000 },
+        { "name": "Facebook", "uv": 12000, "pv": 10000, "amt": 4000 },
+        { "name": "Tiktok", "uv": 27000, "pv": 8000, "amt": 2000 }
+      ],
+      "total": ["Total", "30", "4%", "4%", "4%", "4%"]
+    }
+  },
+  {
+    "id": 9,
+    "row": 1,
+    "col": 1,
+    "bgColor": "#282828",
+    "direction": "right",
+    "graphType": "none",
+    "dataType": "table",
+    "daysType": "7d",
+    "dataTable": {
+      "headers": ["PRODUCT", "Q1-23", "Q2-23"],
+      "rows": [
+        ["Reusable", 30, "4%"],
+        ["Natural", 25, "4%"],
+        ["Compost", 35, "4%"],
+        ["Reusable Stuff", 35, "4%"]
+      ],
+      "total": ["Total", "4%", "4%"]
+    }
+  },
+  {
+    "id": 10,
+    "row": 2,
+    "col": 1,
+    "bgColor": "#FFF",
+    "direction": "right",
+    "graphType": "bar",
+    "dataType": "graph",
+    "daysType": "7d",
+    "dataTable": {
+      "chartData": [
+        { "name": "Red", "value": 29000, "color": "#F1E254" },
+        { "name": "Blue", "value": 43000, "color": "#FF8E8E" },
+        { "name": "Yellow", "value": 21000, "color": "#96D3FF" },
+        { "name": "Green", "value": 34000, "color": "#5FDC8F" },
+        { "name": "Purple", "value": 9000, "color": "#F182F3" },
+        { "name": "Orange", "value": 26000, "color": "#5E5ADB" }
+      ],
+      "total": ["Total", "30", "4%", "4%", "4%", "4%"]
+    }
+  },
+  {
+    "id": 11,
+    "row": 1,
+    "col": 1,
+    "bgColor": "#282828",
+    "direction": "right",
+    "graphType": "none",
+    "dataType": "table",
+    "daysType": "7d",
+    "dataTable": {
+      "headers": ["PRODUCT", "Q1-23", "Q2-23"],
+      "rows": [
+        ["Reusable", 30, "4%"],
+        ["Natural", 25, "4%"],
+        ["Compost", 35, "4%"],
+        ["Reusable Stuff", 35, "4%"]
+      ],
+      "total": ["Total", "4%", "4%"]
+    }
+  },
+  {
+    "id": 12,
+    "row": 1,
+    "col": 1,
+    "bgColor": "#5E5ADB",
+    "direction": "right",
+    "graphType": "none",
+    "dataType": "table",
+    "daysType": "7d",
+    "dataTable": {
+      "headers": ["PRODUCT", "Q1-23", "Q2-23"],
+      "rows": [
+        ["Reusable", 30, "4%"],
+        ["Natural", 25, "4%"],
+        ["Compost", 35, "4%"],
+        ["Reusable Stuff", 35, "4%"]
+      ],
+      "total": ["Total", "4%", "4%"]
+    }
+  },
+  {
+    "id": 13,
+    "row": 1,
+    "col": 1,
+    "bgColor": "#FFF",
+    "direction": "right",
+    "graphType": "line",
+    "dataType": "graph",
+    "daysType": "7d",
+    "dataTable": {
+      "headers": ["Name", "Age", "City"],
+      "rows": [
+        ["John", 30, "New York"],
+        ["Alice", 25, "Los Angeles"],
+        ["Bob", 35, "Chicago"]
+      ],
+      "chartData": [
+        { "name": "Jan", "uv": 21000, "pv": 15000, "amt": 9000 },
+        { "name": "Feb", "uv": 29000, "pv": 11000, "amt": 21000 },
+        { "name": "Mar", "uv": 11000, "pv": 5000, "amt": 28000 },
+        { "name": "Apr", "uv": 12000, "pv": 10000, "amt": 4000 },
+        { "name": "May", "uv": 27000, "pv": 8000, "amt": 2000 }
+      ],
+      "total": ["Total", "30", "4%", "4%", "4%", "4%"]
+    }
+  }
+]

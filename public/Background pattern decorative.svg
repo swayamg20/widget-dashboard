@@ -1,0 +1,25 @@
+<svg width="336" height="336" viewBox="0 0 336 336" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_1_33" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="336" height="336">
+<rect width="336" height="336" fill="url(#paint0_radial_1_33)"/>
+</mask>
+<g mask="url(#mask0_1_33)">
+<circle cx="168" cy="168" r="47.5" stroke="#EAECF0"/>
+<circle cx="168" cy="168" r="47.5" stroke="#EAECF0"/>
+<circle cx="168" cy="168" r="71.5" stroke="#EAECF0"/>
+<circle cx="168" cy="168" r="95.5" stroke="#EAECF0"/>
+<circle cx="168" cy="168" r="119.5" stroke="#EAECF0"/>
+<circle cx="168" cy="168" r="143.5" stroke="#EAECF0"/>
+<circle cx="168" cy="168" r="167.5" stroke="#EAECF0"/>
+</g>
+<rect x="144.5" y="144.5" width="47" height="47" rx="5.5" stroke="#E0DFF8"/>
+<path d="M166.1 159.45H159.45V168H166.1V159.45Z" stroke="#5E5ADB" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M176.55 159.45H169.9V164.2H176.55V159.45Z" stroke="#5E5ADB" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M176.55 168H169.9V176.55H176.55V168Z" stroke="#5E5ADB" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M166.1 171.8H159.45V176.55H166.1V171.8Z" stroke="#5E5ADB" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<radialGradient id="paint0_radial_1_33" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(168 168) rotate(90) scale(168 168)">
+<stop/>
+<stop offset="1" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
